@@ -1,1 +1,1 @@
-"Aqu¡ habr  una nueva version de ahorcado con muchas palabras m s" 
+"AquÃ­ habraÂ una nueva version de ahorcado con muchas palabras mÃ¡s" 
