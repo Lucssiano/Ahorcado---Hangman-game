@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>AHORCADO DE PRUEBA</title>
+    <link rel="stylesheet" type="text/css" href="proyect.css">
+    <link href="https://fonts.googleapis.com/css?family=Rubik" rel="stylesheet">
+</head>
+
+<script type="text/javascript" src="proyect.js"></script>
+
+<body>
+    <h3>AHORCADO</h3>
+    <h2>INGRESE UNA LETRA: <input type="text" id="letra" name="letra" pattern="[a-z][A-Z]" title="Ingrese una letra">
+    </h2>
+    <input type="button" id="button" value="ENVIAR LETRA" style="background-color: orange;" onclick="verific()">
+    <h4>Intentos: <span id="intentos">10</span> </h4>
+    <h5> <span id="P">_</span> <span id="R1">_</span> <span id="O1">_</span> <span id="G">_</span> <span
+            id="R2">_</span>
+        <span id="A1">_</span>
+        <span id="M">_</span> <span id="A2">_</span> <span id="D">_</span> <span id="O2">_</span> <span id="R3">_</span>
+        <span id="E">_</span> <span id="S">_</span> </h5>
+    <picture>
+        <img src="imagenesAhorcado/imagen1.jpg" id="image1"> 
+    </picture>
+    <legend>DATOS DE LA PALABRA</legend>
+    <h1>Cantidad de letras totales de la palabra: 13 </h1>
+    <br>
+    <h1>Cantidad de letras adivinadas correctamente: <span id="adivinadas"> 0 </span> </h1>
+</body>
